@@ -20,3 +20,45 @@ body{
 .color-green{
   color: #00ABAE
 }
+
+.block-main{
+  text-align: center;
+  margin: 100px 0;
+}
+
+.item-list{
+  width: 100%;
+  max-width: 348px;
+  margin: 0 auto;
+}
+
+.item-list b{
+  display: block;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 20px 0 30px;
+}
+
+.item-list p{
+  font-size: 15px;
+  line-height: normal;
+}
+
+.icon-list{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  max-width: 247px;
+  margin: 30px auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-list li{
+  margin-right: 22px;
+}
+
+.icon-list li img{
+  width: 30px;
+}
